@@ -16,7 +16,7 @@ Frame.Parent = ScreenGui
 
 --// TITLE
 local Title = Instance.new("TextLabel")
-Title.Text = "🎵 MUSIC CONTROL ALL PLAYER"
+Title.Text = "🎵 MUSIC CONTROL ALL PLAYER BY ZIKRI"
 Title.Size = UDim2.new(1, 0, 0, 35)
 Title.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -63,7 +63,7 @@ local SlowButton = Instance.new("TextButton")
 SlowButton.Size = UDim2.new(0.8, 0, 0, 35)
 SlowButton.Position = UDim2.new(0.1, 0, 0.73, 0)
 SlowButton.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
-SlowButton.Text = "🐢 SLOW MUSIC"
+SlowButton.Text = "PLAY THEME MUSIC ZIKRI "
 SlowButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 SlowButton.Font = Enum.Font.GothamBold
 SlowButton.TextSize = 14
@@ -137,7 +137,7 @@ end)
 --------------------------------------------------------
 --// SLOW MUSIC
 SlowButton.MouseButton1Click:Connect(function()
-	notif.Text = "🐢 Memperlambat musik semua player..."
+	notif.Text = "Memutar Music"
 	fireMusicCommand("121945793147563")
 	task.wait(1)
 	notif.Text = ""
